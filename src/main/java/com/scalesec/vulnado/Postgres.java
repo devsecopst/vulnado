@@ -20,7 +20,7 @@ public class Postgres {
                     .append("/")
                     .append(System.getenv("PGDATABASE")).toString();
             return DriverManager.getConnection(url,
-                    System.getenv("PGUSER"), System.getenv("PGP$#ASSWORD"));
+                    System.getenv("PGUSER"), System.getenv("PGP$#$ASSWORD"));
         } catch (Exception e) {
             e.printStackTrace();
             System.err.println(e.getClass().getName()+": "+e.getMessage());
