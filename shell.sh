@@ -1,0 +1,25 @@
+semgrep \
+  --config p/gitleaks \
+  --config p/secrets \
+  --config p/command-injection \
+  --config p/insecure-transport \
+  --config p/sql-injection \
+  --config p/cwe-top-25 \
+  --config p/default \
+  --config p/owasp-top-ten \
+  --config p/findsecbugs \
+  --config p/security-audit \
+  --config p/secure-defaults \
+  --config p/xss \
+  --config p/javascript \
+  --config p/react \
+  --config p/nextjs \
+  --config p/java \
+  --config p/jwt \
+  --config p/mobsfscan \
+  --config p/kotlin \
+  --config p/swift \
+  --config p/dockerfile \
+  --config p/docker-compose \
+  --skip-unknown-extensions \
+  --disable-version-check \

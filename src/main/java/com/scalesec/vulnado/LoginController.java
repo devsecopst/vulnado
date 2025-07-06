@@ -24,7 +24,9 @@ public class LoginController {
       throw new Unauthorized("Access Denied");
     }
   }
+
 }
+
 
 class LoginRequest implements Serializable {
   public String username;

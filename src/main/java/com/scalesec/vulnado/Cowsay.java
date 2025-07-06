@@ -10,6 +10,8 @@ public class Cowsay {
     System.out.println(cmd);
     processBuilder.command("bash", "-c", cmd);
 
+
+
     StringBuilder output = new StringBuilder();
 
     try {
