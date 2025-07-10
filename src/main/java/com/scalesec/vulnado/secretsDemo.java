@@ -3,6 +3,7 @@ package org.example;
 public class secretsDemo {
     public static void main(String[] args) {
         // 🔑 AWS Credentials
+        
         String awsAccessKeyId = "AKIA5NH7L4P3KJ2U9D3N";
         String awsSecretKey = "N7k58Gv+WbqUVsRiZcKZpu7FmAIfs8WlYuU5U9XL";
         // 🔐 GitHub Token
