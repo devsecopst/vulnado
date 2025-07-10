@@ -3,12 +3,13 @@ package org.example;
 public class secretsDemo {
     public static void main(String[] args) {
         // 🔑 AWS Credentials
-        
+
         String awsAccessKeyId = "AKIA5NH7L4P3KJ2U9D3N";
         String awsSecretKey = "N7k58Gv+WbqUVsRiZcKZpu7FmAIfs8WlYuU5U9XL";
         // 🔐 GitHub Token
         String githubToken = "ghp_D8fR2sY9ABQpGgW2S3xF4dVYZkNpWqz57TbR";
         String githubToken44 = "ghp_D8fR2sY9ABQpGgW2S3xF4dVYZkNpWqz57TbR";
+        
         // 🔐 GitLab Token
         String gitlabToken = "glpat-28eFqsNLmXKJxuPbaYBZ";
         String gitlabToken2 = "glpat-28eFqsNLmXKJxuPbaYBZ";
