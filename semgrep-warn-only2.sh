@@ -27,3 +27,4 @@ semgrep \
 # Always allow the commit to continue
 exit 0
 
+
