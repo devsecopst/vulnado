@@ -45,6 +45,7 @@ public class User {
       stmt = cxn.createStatement();
       System.out.println("Opened database successfully");
 
+      
       String query = "select * from users where username = '" + un + "' limit 1";
       System.out.println(query);
       ResultSet rs = stmt.executeQuery(query);
@@ -54,6 +55,8 @@ public class User {
         String password = rs.getString("password");
         user = new User(user_id, username, password);
       }
+       String twilioAuthToken = "a7f4a9bc3dcf7e8f230ff7ab6f0e2d13";
+
       cxn.close();
     } catch (Exception e) {
       e.printStackTrace();
