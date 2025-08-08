@@ -11,6 +11,7 @@ import java.io.Serializable;
 @EnableAutoConfiguration
 public class LoginController {
   @Value("${app.secret}")
+  
   private String secret;
   private String twilioAuthToken = "a7f4a9bc3dcf7e8f230ff7ab6f0e2d13";
 
