@@ -12,6 +12,7 @@ public class secretsDemo {
 
 
         
+
         // 🔐 GitLab Token
 
         String gitlabToken = "glpat-28eFqsNLmXKJxuPbaYBZ";
