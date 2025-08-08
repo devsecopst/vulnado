@@ -5,6 +5,9 @@ import org.springframework.boot.autoconfigure.*;
 
 import java.io.Serializable;
 
+
+
+
 @RestController
 @EnableAutoConfiguration
 public class CowController {
