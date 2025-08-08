@@ -7,10 +7,6 @@ import org.springframework.boot.autoconfigure.*;
 import org.springframework.stereotype.*;
 import org.springframework.beans.factory.annotation.*;
 import java.io.Serializable;
-
-
-
-
 @RestController
 @EnableAutoConfiguration
 public class LoginController {
