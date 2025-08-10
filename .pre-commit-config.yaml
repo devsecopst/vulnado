@@ -1,5 +1,5 @@
 repos:
   - repo: https://github.com/devsecopst/pre-commit
-    rev: v1.1.11
+    rev: v1.1.13
     hooks:
-      - id: semgrep-warn-only
+      - id: semgrep
