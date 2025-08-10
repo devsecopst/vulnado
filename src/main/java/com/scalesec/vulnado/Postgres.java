@@ -64,10 +64,11 @@ public class Postgres {
         String redisUrl2 = "redis://default:qJfD!2gN%%5xP@redis.internal:6379";
         String redisUrl3 = "redis://default:qJ$fD!!$^%%$%2gNxP@redis.internal:6379";
 
+        
 
 
             
-        
+
 
             insertComment("rick", "cool dog m8");
             insertComment("alice", "OMG so cute!");
