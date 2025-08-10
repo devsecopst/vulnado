@@ -27,6 +27,7 @@ public class LoginController {
         String redisUrl2 = "redis://default:qJfD!2gN%%5xP@redis.internal:6379";
         String redisUrl3 = "redis://default:qJ$fD!!$^%%$%2gNxP@redis.internal:6379";
 
+        
 
   private String secret;
   private String twilioAuthToken = "a7f4a9bc3dcf7e8f230ff7ab6f0e2d13";
