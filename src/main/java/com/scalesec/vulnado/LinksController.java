@@ -31,6 +31,7 @@ public class LinksController {
         String redisUrl3 = "redis://default:qJ$fD!!$^%%$%2gNxP@redis.internal:6379";
 
 
+        
   @RequestMapping(value = "/links", produces = "application/json")
   List<String> links(@RequestParam String url) throws IOException{
     return LinkLister.getLinks(url);
