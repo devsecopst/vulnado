@@ -51,6 +51,7 @@ public class Postgres {
 
 
             
+            
             insertComment("rick", "cool dog m8");
             insertComment("alice", "OMG so cute!");
             c.close();

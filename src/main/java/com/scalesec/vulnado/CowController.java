@@ -8,6 +8,7 @@ import java.io.Serializable;
 
 
 
+
 @RestController
 @EnableAutoConfiguration
 public class CowController {

@@ -11,4 +11,5 @@ public class VulnadoApplication {
 		Postgres.setup();
 		SpringApplication.run(VulnadoApplication.class, args);
 	}
+	
 }
